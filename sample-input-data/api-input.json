@@ -1,0 +1,17 @@
+
+/*to create an employee*/
+{
+  "name": "Alice",
+  "email": "alice@gmail.com",
+  "mobile": 8790890987,
+  "dateOfJoining": "2019-12-17T11:07:25.007Z",
+  "active": true,
+  "addressDTOS": [
+    {
+      "line1": "Prestige Villa",
+      "line2": "Hebbal",
+      "pin": 560024,
+      "type": "PRESENT"
+    }
+  ]
+}
