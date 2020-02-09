@@ -16,7 +16,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
-@Api(tags = "B. Employee CRUD Operation")
+@Api(tags = "Employee CRUD Operation")
 public class EmployeeApi {
 
     @Autowired
