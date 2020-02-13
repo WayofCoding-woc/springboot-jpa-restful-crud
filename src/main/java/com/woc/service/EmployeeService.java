@@ -23,7 +23,7 @@ public class EmployeeService {
 
     private void validateEmployee(EmployeeDTO employee) {
         String email = employee.getEmail();
-        if(null == email || email.isBlank()){
+        if(null == email || email.trim().length() == 0){
             throw new PartialInputDataException("email is mandatory for creating an employee", employee);
         }
 
