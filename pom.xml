@@ -9,7 +9,7 @@
     <version>1.0</version>
 
     <properties>
-        <swagger.version>2.4.0</swagger.version>
+        <swagger.version>2.10.0</swagger.version>
     </properties>
 
     <parent>
